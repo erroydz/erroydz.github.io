@@ -103,21 +103,24 @@
 }
 
 .social{
+
 	margin-top: 140px;
 	margin-left: 50px;
-	padding: 35px 0;
-	transition: 0.5s;
+	padding: 35px 0;	
 }
 
 .social img{
 	width: 60px;
 	height: 60px;
-	margin: 20px;	
+	margin: 20px;
+	transition: 0.5s;
+
 }
 
-.social:hover{
-	transform: scale(1.3);
-	z-index: 2;
+.social img:hover{
+	width: 70px;
+	height: 70px;
 }
+
 
 
