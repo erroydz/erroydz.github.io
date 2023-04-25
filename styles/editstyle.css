@@ -1,0 +1,86 @@
+zbody {
+    background-color: #2a2828;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-container {
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #2a2828;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: #2a2828;
+    color: white;
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .form-image {
+    width: 40%;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+
+  img{
+    width: 100%;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  input[type="text"],
+  input[type="radio"],
+  textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  input[type="text"]:focus,
+  input[type="radio"]:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #8f2b34;
+  }
+  
+  input[type="submit"] {
+    background-color: #8f2b34;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #874349da;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .form-container, .form-image {
+      width: 100%;
+    }
+
+  
+    input[type="submit"] {
+      font-size: 16px;
+    }
+  
+  }
+  
